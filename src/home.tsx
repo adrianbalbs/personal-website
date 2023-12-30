@@ -1,9 +1,9 @@
-import BodyWrapper from "./BodyWrapper";
-import Socials from "./Socials";
+import BodyWrapper from "./body-wrapper";
+import Socials from "./socials";
 import profilePicture from "./assets/profile-img.jpg";
 import { Separator } from "@/components/ui/separator";
 
-function App() {
+function Home() {
   return (
     <>
       <BodyWrapper>
@@ -50,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
