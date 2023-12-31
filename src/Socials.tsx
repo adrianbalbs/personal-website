@@ -5,7 +5,7 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 
-export default function Socials() {
+function Socials() {
   return (
     <div className="flex gap-5 my-5 justify-center">
       <a href="https://github.com/adrianbalbs" target="_blank" rel="noopener noreferrer">
@@ -35,3 +35,5 @@ export default function Socials() {
     </div>
   );
 }
+
+export default Socials;

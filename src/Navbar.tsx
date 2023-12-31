@@ -14,7 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "./components/ui/navigation-menu";
 
-export default function Navbar() {
+function Navbar() {
   return (
     <div className="sticky w-full border-b border-border backdrop-blur">
       <div className="flex justify-end md:justify-between items-center mx-auto md:max-w-screen-lg p-1">
@@ -49,3 +49,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;
