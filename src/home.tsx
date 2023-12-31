@@ -1,14 +1,16 @@
-import BodyWrapper from "./body-wrapper";
-import Socials from "./socials";
+import BodyWrapper from "./BodyWrapper";
+import Socials from "./Socials";
 import profilePicture from "./assets/profile-img.jpg";
 import { Separator } from "@/components/ui/separator";
+import Navbar from "./Navbar";
 
 function Home() {
   return (
     <>
+      <Navbar />
       <BodyWrapper>
         <div className="flex justify-center">
-          <div className="md:max-w-screen-lg">
+          <div className="md:max-w-screen-md">
             <h1 className="text-5xl font-bold text-left my-5">
               <span className="text-primary">Adrian </span>
               Balbalosa
