@@ -16,7 +16,7 @@ import {
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 w-full border-b border-border backdrop-blur">
+    <div className="sticky w-full border-b border-border backdrop-blur">
       <div className="flex justify-end md:justify-between items-center mx-auto md:max-w-screen-lg p-1">
         <div className="hidden md:block">
           <NavigationMenu>

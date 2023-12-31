@@ -45,6 +45,9 @@ function Home() {
             </div>
             <Separator />
             <Socials />
+            <footer className="p-5 text-muted-foreground w-full">
+              © 2023 Adrian Balbalosa. All rights reserved.
+            </footer>
           </div>
         </div>
       </BodyWrapper>
